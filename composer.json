@@ -10,8 +10,14 @@
     "issues": "https://www.drupal.org/project/issues/odata_client",
     "source": "http://cgit.drupalcode.org/odata_client"
   },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/abhisekmazumdar/odata-client-php"
+    }
+  ],
   "require": {
-    "saintsystems/odata-client": "^0.6",
+    "saintsystems/odata-client": "dev-downgrade-guzzle",
     "league/oauth2-client": "^2.4",
     "thenetworg/oauth2-azure": "^2.1"
   }
